@@ -1,0 +1,10 @@
+.download-btn {
+  display: flex;
+  align-items: flex-end;
+}
+
+.download-icon {
+  font-size: 20px;
+  margin-right: 10px;
+  margin-bottom: 6px;
+}
