@@ -28,15 +28,12 @@ const Gif = ({ gif }) => {
       <CardActionArea>
         <CardMedia
           component="img"
-          height="140"
+          height="180"
           alt={gif.title}
           src={gif.images.downsized.url}
         />
 
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            {gif.username ? gif.username : "eminem"}
-          </Typography>
           <Typography variant="body2" color="text.secondary">
             {gif.title}
           </Typography>

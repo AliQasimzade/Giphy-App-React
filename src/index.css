@@ -13,6 +13,7 @@ code {
 }
 .App {
   width: 100%;
+  height: fit-content;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -26,6 +27,12 @@ code {
   width: 95%;
   margin: 0 auto;
 }
+.css-mhc70k-MuiGrid-root{
+  padding-bottom: 20px;
+}
+.css-mhc70k-MuiGrid-root>.MuiGrid-item{
+  width: fit-content;
+}
 h2 {
   text-align: center;
   color: #fff;
@@ -33,10 +40,6 @@ h2 {
 .result-in-search {
   color: #fff;
   padding-left: 16px;
-}
-.grid-container {
-  max-width: 95vw;
-  margin: 0 auto;
 }
 
 .grid-item {
